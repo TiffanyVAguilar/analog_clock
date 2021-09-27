@@ -1,0 +1,50 @@
+#pumpkins {
+  background-image: url(images/halloween.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 770px;
+  height: 700px;
+  margin: 0 auto;
+  background-position-x: center;
+}
+#clockContainer {
+  position: relative;
+  margin: auto;
+  height: 700px;
+  width: 500px;
+  background: url(images/numbers.png) no-repeat;
+  background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.8%;
+  height: 25%;
+  top: 10%;
+  left: 46%;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1.6%;
+  height: 25%;
+  top: 10%;
+  left: 46%;
+  opacity: 0.8;
+}
+
+#second {
+  width: 1%;
+  height: 25%;
+  top: 10%;
+  left: 46%;
+  opacity: 0.8;
+}
